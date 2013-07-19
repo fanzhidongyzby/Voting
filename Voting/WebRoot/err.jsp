@@ -1,0 +1,34 @@
+<%@ page language="java" import="java.util.*" pageEncoding="gb2312"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>登录</title>
+<link rel="stylesheet" type="text/css" href="./src/common.css">
+</head>
+<body>
+<table class="top" border="0" style="background-image:url(src/head.png)">
+<tr>
+<td rowspan="2" width="80%"><font style="font-family:楷体; color:#FFFFFF"  size="+4">&nbsp;选票管理系统</font></td>
+<td>&nbsp;</td>
+</tr>
+<tr><td align="right"><a style="color:#FFFFFF" target="_blank" href="./login.jsp">信息维护</a></td></tr>
+</table>
+<div style="height:10px"></div>
+<div class="head">
+	<div class="head_left"></div>
+    <div class="head_middle"><font class="head_txt">&nbsp;错误</font></div>
+    <div class="head_right"></div>
+</div>
+<div class="main" >
+<table align="center" width="30%">
+<tr height="300" valign="middle">
+<td width="17%"><img src="src/err.jpg"/></td>
+<td width="83%" align="center"><font color="#FF0000" face="楷体" size="+6">出错了！</font></td>
+</tr>
+</table>
+<div class="bottom"></div>
+</div>
+
+</body>
+</html>

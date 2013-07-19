@@ -1,0 +1,107 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312" />
+<title>管理员</title>
+<link rel="stylesheet" type="text/css" href="./src/common.css">
+</head>
+<body>
+<table class="top" border="0" style="background-image:url(src/head.png)">
+<tr>
+<td rowspan="2" width="80%"><font style="font-family:楷体; color:#FFFFFF"  size="+4">&nbsp;选票管理系统</font></td>
+<td>&nbsp;</td>
+</tr>
+<tr><td align="right"><a style="color:#FFFFFF" target="_blank" href="./login.html">信息维护</a></td></tr>
+</table>
+<div style="height:10px"></div>
+<div class="head">
+	<div class="head_left"></div>
+    <div class="head_middle"><font class="head_txt">&nbsp;候选人管理</font></div>
+    <div class="head_right"></div>
+</div>
+<div class="main" >
+<table align="center" width="800" border="0">
+<tr>
+<td>
+<div style="height:10px;"></div>
+<div style="border:solid; border-color:#CCCCCC; border-width:thin; width:100%">
+<table width="100%" border="1" bordercolor="#999999" style="BORDER-COLLAPSE: collapse">
+<tr  align="center" height="20" bgcolor="#999999">
+<td width="9%" >序号</td>
+<td width="20%" >姓名</td>
+<td width="32%" >账号</td>
+<td width="30%" >密码</td>
+<td width="9%" >删除</td>
+</tr>
+<tr height="24" align="center">
+<td >1</td>
+<td >张三丰</td>
+<td ><a href="candidate.html">S11070826</a></td>
+<td >taiji</td>
+<td  align="center"><img src="src/del.png" style="cursor:pointer" onclick="alert('删除成功！');" /></td>
+</tr>
+<tr height="24" align="center">
+<td >2</td>
+<td >张三丰</td>
+<td ><a href="candidate.html">S11070826</a></td>
+<td >taiji</td>
+<td  align="center"><img src="src/del.png" style="cursor:pointer" onclick="alert('删除成功！');" /></td>
+</tr>
+<tr height="24" align="center">
+<td >3</td>
+<td >张三丰</td>
+<td ><a href="candidate.html">S11070826</a></td>
+<td >taiji</td>
+<td  align="center"><img src="src/del.png" style="cursor:pointer" onclick="alert('删除成功！');" /></td>
+</tr>
+<tr height="24" align="center">
+<td >4</td>
+<td >张三丰</td>
+<td ><a href="candidate.html">S11070826</a></td>
+<td >taiji</td>
+<td  align="center"><img src="src/del.png" style="cursor:pointer" onclick="alert('删除成功！');" /></td>
+</tr>
+</table>
+</div>
+</td>
+</tr>
+<tr><td colspan="10"  align="left" valign="middle">
+<button type="button" onclick="location.href='addcandidate.html'" class="button"><font class="btn_txt" style=" margin-left:-10px;">添加候选人</font></button></td></tr>
+</table>
+<div class="bottom"></div>
+</div>
+<div style="height:10px"></div>
+<div class="head">
+	<div class="head_left"></div>
+    <div class="head_middle"><font class="head_txt">&nbsp;选民信息管理</font></div>
+    <div class="head_right"></div>
+</div>
+<div class="main">
+<table align="center" width="800">
+<tr><td>
+<div style="border:solid; border-color:#CCCCCC; border-width:thin; width:100%">
+  <table width="100%"  border="1" bordercolor="#999999" style="BORDER-COLLAPSE: collapse">
+  <tr><td>
+  <div style="height:10px;"></div>
+  <table width="100%" border="0">
+    <tr valign="middle" height="37px">
+      <td width="23%" align="right"> 选民信息导入:</td>
+      <td width="31%"><input name="file" type="file" /></td>
+      <td width="18%" ><button type="button" onclick="alert('选民信息更新成功！')" class="button"><font class="btn_txt" style=" margin-left:-10px;">更新</font></button></td>
+	  <td colspan="2"><a onclick="alert('请上传.txt文格式文本文件，文件内需要将选民的身份证号按行排列。')" style="cursor:pointer; color:#FF0000">
+	  <img src="src/help.png" height="30" width="30" /></a></td>
+    </tr>
+	  <tr valign="middle"><td height="60" colspan="3">&nbsp;</td>
+	  <td width="4%" align="right"><a onclick="alert('此操作会清除所有候选人选票的信息，请谨慎操作！！！')" style="cursor:pointer; color:#FF0000">
+	  <img src="src/help.png" height="30" width="30" /></a></td>
+	  <td width="24%"  align="left"><button type="button" class="back_btn" onclick="if(confirm('系统将会把所有的选票数据清0，确认这样做吗？'))alert('选票信息清除成功！')"><font class="btn_txt" style=" margin-left:10px;">清空选票</font></button></td>
+    </tr>
+  </table>
+</td></tr></table>
+
+</div>
+</td></tr></table>
+<div class="bottom"></div>
+</div>
+</body>
+</html>
